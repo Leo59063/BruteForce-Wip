@@ -1,5 +1,5 @@
 @echo off
-title SMB Bruteforce - by Ebola Man
+title SMB Bruteforce
 color A
 echo.
 set /p ip="Enter IP Address: "
@@ -7,7 +7,7 @@ set /p user="Enter Username: "
 set /p length="Enter Password Length: "
 
 :: Define character set: lowercase, uppercase, digits
-set charset=abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
+set charset=abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.
 
 :: Set the counter for the number of attempts
 set /a count=1
